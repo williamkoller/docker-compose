@@ -23,5 +23,9 @@ mostra os dados do container
  docker build -t williamkoller/nginx .
 
  cria a imagem 
+ 
+ docker run -d -p 8001:8080 williamckoller/nginx
+ 
+ rodando uma imagem depois de criada e passando a porta do nginx
 
  
